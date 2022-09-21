@@ -1,0 +1,5 @@
+---
+- hosts: Dbserver
+  become: yes
+  roles:
+   - role: '/roles/common/webtier'
