@@ -5,4 +5,5 @@
   tasks:
     - name: Install Apache HTTP server
       yum: name=httpd update_cache=yes state=latest
-...
+  tags:
+     - installation 
