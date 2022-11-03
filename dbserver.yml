@@ -1,5 +1,5 @@
 ---
-- hosts: Dbserver
+- hosts: localhost
   become: yes
   roles:
    - role: '/roles/common/webtier'
