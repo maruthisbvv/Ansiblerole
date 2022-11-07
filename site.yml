@@ -1,7 +1,7 @@
 #This playbbok will install HTTP server and will not start the server.
 
 ---
-- hosts: all
+- hosts: localhost
   become: true
   tasks:
     - include: webserver.yml
