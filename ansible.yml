@@ -1,8 +1,8 @@
 ---
-- name: intigration!
+- name: ansible!
   hosts: all
 
   tasks:
 
-  - name: intigration!
+  - name: ansible!
     shell: echo "Hi! Tower is working!"
