@@ -1,5 +1,8 @@
 ---
-- hosts: local
-  become: true
-  roles:
-    - role: 'roles/DCE/fooapp'
+- name: intigration!
+  hosts: all
+
+  tasks:
+
+  - name: intigration!
+    shell: echo "Hi! Tower is working!"
